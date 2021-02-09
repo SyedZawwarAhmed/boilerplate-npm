@@ -1,15 +1,23 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": "Zawwar Ahmed",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "author": "Zawwar Ahmed",
+  "description": "A project that does something awesome",
+  "keywords": [
+    "freecodecamp",
+    "backend",
+    "node"
+  ],
+  "license": "MIT",
+  "version": "1.2.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
